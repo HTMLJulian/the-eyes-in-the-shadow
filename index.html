@@ -116,7 +116,34 @@
       z-index: 1000;
     }
     @media screen and (max-width: 768px) {
-      nav {
+      
+.navbar {
+    display: flex;
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center;     /* vertikal zentrieren */
+    height: 60px;            /* Beispielhöhe, anpassbar */
+    background-color: #333;  /* Beispielhintergrund */
+}
+
+.navbar a {
+    color: white;            /* Textfarbe */
+    text-decoration: none;
+    margin: 0 15px;          /* Abstand zwischen den Links */
+    font-size: 16px;         /* Textgröße */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+    text-decoration: none;
+    margin: 0 15px;          /* Abstand zwischen den Links */
+    font-size: 16px;         /* Textgröße */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+} {
         flex-direction: column;
       }
       nav .links a {
