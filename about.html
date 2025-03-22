@@ -64,6 +64,35 @@
       font-size: 1.05rem;
     }
     @media screen and (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      nav .links a {
+        margin: 0.5rem 0;
+      }
+    }
+
+    nav .links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+  
+  @media screen and (max-width: 768px) {
       nav { flex-direction: column; }
       nav .links a { margin: 0.5rem 0; }
     }
@@ -83,6 +112,7 @@
     <div class="links">
       <a href="index.html">Script</a>
       <a href="about.html">About</a>
+      <a href="https://htmljulian.github.io/About-Nano/" target="_blank">About me</a>
     </div>
   </nav>
   <div class="container">
